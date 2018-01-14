@@ -4,9 +4,9 @@ console.log(languages.length);
 
 // Accessing indexes 
 
-let languages = languages[0]; 
+let languages_first_index = languages[0]; 
 
-let languages = languages[languages.length - 1]; 
+let languages_first_neg_index = languages[languages.length - 1]; 
 
 languages.forEach(function(item, index, array) {
 	console.log(item, index); 
@@ -30,9 +30,9 @@ let removeit = languages.splice(pos, 1);
 let aethyr_tex = ['TAAOGBA', 'GEMNIMB', 'ADVORPT', 'DOXMAEL']; 
 console.log(aethyr_tex); 
 
-let pos = 1, n = 2; 
+let pos2 = 1, n = 2; 
 
-let removedItems = aethyr_tex.splice(pos, n); 
+let removedItems = aethyr_tex.splice(pos2, n); 
 
 console.log(aethyr_tex); 
 console.log(removedItems);
