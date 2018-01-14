@@ -45,3 +45,24 @@ class Array1 {
 }
 
 console.log([] instanceof Array1); 
+
+// Objects 
+
+let imanobjectliterally = {
+	fname: "dotecha", 
+	lname: "doe", 
+	age: 35
+}
+
+
+let obj = {
+	log: ['a', 'b', 'c'], 
+	get latest() {
+		if (this.log.length == 0) {
+			return undefined;
+		}
+		return this.log[this.log.length - 1]; 
+	}
+}
+
+console.log(obj.latest); 
