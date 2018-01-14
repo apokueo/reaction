@@ -11,6 +11,7 @@ class ProductList extends React.Component {
 			votes={product.votes}
 			submitterAvatarUrl={product.submitterAvatarUrl}
 			productImageUrl={product.productImageUrl} 
+			//onVote={this.handleProductUpVote}
 		/>
 	));
 	return(
