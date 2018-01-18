@@ -3,5 +3,23 @@ Node -> Javascript runtime used to execute code outside of the browser
 Express -> Library that runs in the Node runtime.  Has helpers to make dealing with HTTP traffic easier. Collections of functions(helpers) for HTTP navigation.
 
 
+INCOMING HTTP REQUEST
+	|
+	|
+	|
+	|
 
+Ports on Machine Accessed
+	4998
+	4999
+	5000
+	5001
+	5002
+	5003
+	NODE
+     /	       \
+EXPRESS		RESPONSE
+|		|
+RH1	RH2	RH3
 
+Write route to handlers to respond 
