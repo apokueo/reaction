@@ -11,21 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to Estrum </h1>
         </header>
         <p className="App-intro">
-          function tick() {
-           clock = (
-              <div>
-                <h2>
-                  It is{' '}
-                  {new Date().toLocaleTimeString()}.
-                </h2>
-              </div>
-            )
-            ReactDOM.render(
-              clock,
-              document.getElementById('root')
-            );
-          }
-          setInterval(tick, 1000);
+          
         </p>
       </div>
     );
