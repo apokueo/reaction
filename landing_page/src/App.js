@@ -8,10 +8,24 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to Estrum </h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          function tick() {
+           clock = (
+              <div>
+                <h2>
+                  It is{' '}
+                  {new Date().toLocaleTimeString()}.
+                </h2>
+              </div>
+            )
+            ReactDOM.render(
+              clock,
+              document.getElementById('root')
+            );
+          }
+          setInterval(tick, 1000);
         </p>
       </div>
     );
