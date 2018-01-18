@@ -1,5 +1,14 @@
-git clean -n
-# for cleaning upstaged files. Asks would and then the file names that are unstaged.
+git log --oneline
+# prints a condensed log
 
-git clean -f
-#  removes the files 
+git log --oneline | wc -1
+# represents all commits made as word
+
+git log --oneline --graph
+# Graphical representation of and Condensed log history
+
+git shortlog
+# list of authors and commit messages.
+
+git shortlog -sne
+# summary/numerically decreasing/ email
