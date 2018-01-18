@@ -12,3 +12,8 @@ git shortlog
 
 git shortlog -sne
 # summary/numerically decreasing/ email
+
+
+
+
+TALKING A BREAK YA BISHES 
