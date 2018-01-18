@@ -1,0 +1,1 @@
+this is a new commit getting staged separately from index1
