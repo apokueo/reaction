@@ -6,3 +6,49 @@ i<j
 i<=j
 i==j / equality test, True if i equals j
 i!=j / inequality test, True if i not equal to j
+
+
+a and b are any variable names 
+
+not a => True if a is False 
+
+	 False if a is True 
+
+a and b => True if both are True 
+
+a or b => True if either or both are True 
+
+
+Branching Programs 
+
+The simplest statement is a conditional 
+
+A test (expression that evaluates to True or False) 
+
+A block of code to execute if the test is True 
+
+An optional block of code to execute if the test is False 
+
+Code -> Test -> True Block - Code 
+
+Ex. 
+
+x = int(input('Enter an integer: ')) 
+
+if x%2 == 0:
+  print('')
+  print('Even')
+else
+  print('')
+  print('odd')
+print('Done with conditional')
+
+
+Compound Booleans 
+
+if x < y and x < z: 
+  print('x is least')
+elif y < z:
+  print('y is least')
+else:
+  print('z is least') 
