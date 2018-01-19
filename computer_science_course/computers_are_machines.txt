@@ -1,0 +1,52 @@
+Computers are machines 
+
+How to capture a recipe in a mechanical process? 
+
+Fix program: 
+	computer 
+		calculator
+		Alan Turing's Bombe (designed to break Germany's encryption) 
+	
+
+Stored Program:
+	computer 
+		machine stores and executes instructions 
+
+
+
+Basic Machine Architecture 
+
+Memory (place to store things - data/or sequences of instructions that are programs - mechanical state) 
+
+Arithmetic logic unit -> do primitive ops (addition, subtraction, division, multiplication)
+	Control Unit -> program counter -> points to location of first instruction into memory. 
+	Will return a boolean 
+to 
+
+	Input / Output o
+
+
+Programs are sequences of instructions
+
+
+function calculate() { 
+	for (var i; i < 10; i++) {
+		console.log(i); 
+
+	} 
+calculator();  
+
+
+Stored Program Computer 
+
+- sequence of instructions stored inside computer
+	- built from 'predefined' set of primitive instructions 
+ 	1. arithmetic and logic 
+	2. simple tests
+	3. moving data
+
+- special program (interpreter) executes each instruction in order 
+	- use tests to change flow of control through sequence 
+	- stop when done 
+
+

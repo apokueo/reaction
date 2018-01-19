@@ -39,3 +39,26 @@ Are there limits?
 	- Some problems are fundamentally impossible to compute 
 		- Predicting whether a peice of code will always yeild or halt an answer 
 			
+
+
+* What is a Recipe? 
+	1. sequence of simple steps (flow) 
+	2. flow of control process that specifies when each step is executed
+	3. a means of determining when to stop 
+	
+	Ex. 1+2+3 = an algorithm 
+
+
+square root of a number x is y such that y*y = x 
+
+recipe for deducing square root of number x (e.g.16) 
+
+1. Start with a guess, g
+2. if g * g is close enough to x, stop and say g is the answer 
+3. Otherwise make a new guess by averaging g and x/g 
+4. Using the new guess, repeat process until close enough 
+
+g	g*g	x/g	(g+x/g)/2 
+3	9	5.333	4.1667
+4.1667	17.36	3.837	4.0035
+4.0035	16.02	3.997	4.000002
