@@ -1,0 +1,19 @@
+Basic Primitives 
+
+- Turing showed that you can compute anything using 6 primitives 
+
+- modern programming languages have more convenient set of primitives 
+
+- can abstract methods to create new primitives 
+
+- anything computable in one language is computable in any other programming language 
+Python, Fortran, Lisp, C, Matlab, Ruby etc 
+
+
+Nick would always inquire as to why use one language over another. Here is the answer: 
+
+And those are move left, move right, scan, print, write, do nothing." 
+
+"In PHP, it's easier to deal with web programming" 
+
+Study Turing Complete 
