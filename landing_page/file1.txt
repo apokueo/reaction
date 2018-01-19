@@ -1,3 +1,13 @@
+
+git commit -am "message"
+# Adds modified files with commit message
+
+git remote rm origin
+# removes origin
+
+git remote add origin
+# git@github.com:YcleptInsan/GitFoundations
+
 git log --oneline
 # prints a condensed log
 
@@ -13,7 +23,54 @@ git shortlog
 git shortlog -sne
 # summary/numerically decreasing/ email
 
+git show header
+# Will show last commit
 
+git remote
+# shows remote repositories
 
+git remote -v
+# shows remote repositories in Verbose Mode. Allowing you to see the url and the fetch/push
 
-TALKING A BREAK YA BISHES 
+git remote add origin https://github.com/YcleptInsan/(something.git)
+# Can pull from multiple repository.
+  Ability to have multiple remotes. 
+
+git fetch
+# Will pull down changes from the remotely added repositories
+
+git merge origin/master
+# merging the origin feature branch into the master
+
+git pull
+# Similar to the command above it pulls down a remote repository to merge with a local repository
+
+git push
+
+git branch --set-upstream master origin/master
+# Setting up an upstream tracking branch. reflects the branch remotely that the local branch mirrors. That way git pull will be pulling from the repo. specified
+
+git branch -r
+# shows remote branches
+
+git tag (-a)(s)(v)(v1.0)
+# known points where you can tag versions.
+-a_with_Message for message
+s_Signed is for signed. RSA key with
+v for verified. Verifying a tag is signed or not.
+
+git push --tags
+# pushes tags to remote repository. Allowing version control and easy access to see the state of code at a given point in time.
+
+-------------------------------------------------
+              Git Protocols
+        port |   notes
+http(s) 80/443   Read-write, passwords for auth  and                 Firewall friendly.
+
+git     9418     Read-only, Anonymous only
+
+ssh     22       Read-write, SSH keys for auth
+
+file    n/a       Read-write, local only
+
+---------------------------------------------------
