@@ -1,0 +1,7 @@
+Syntax => determines whether a string is legal(valid) 
+
+Semantics => assigns meanings to a legal sentence 
+
+Static Semantics => determines whether a string has meaning 
+
+Semantics is the unit of linguistics which deals with meanings of words while statistic semantics connotes,application of statistics to the solution of finding out the meaning of words or phrases.
