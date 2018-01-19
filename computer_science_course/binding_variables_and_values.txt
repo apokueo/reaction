@@ -1,0 +1,34 @@
+= is an assignment of a value to a variable name 
+
+pi(variable) = 3.14(value) 
+
+you are saying bind the value 3.14 to the variable pi
+and if you ask for the value of pi it will print out 3.14
+
+The value is stored in computer memory (called named table)  
+an assignment binds name to value 
+retrieve value associated with name or variable by invoking name, by typing pi 
+
+Abstracting Expressions 
+why give names to values of expressions? 
+reuse names instead of values 
+easier to change code later 
+
+
+pi = 3.14159
+radius = 2.2 
+area = pi*(radius**2) 
+radius = radius + 1
+// computes the area 
+
+Names are valuable because they tell you what you are trying to compute or solve 
+
+Changing Bindings 
+can rebind variable names using new assignment statements 
+previous value may still stored in memory but lost the handle for it
+value for area does not change until you tell the computer to do the calculation again
+
+pi = 3.14
+radius = 2.2 
+area = pi * (radius**2)
+radius = radius + 1 
