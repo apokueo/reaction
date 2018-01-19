@@ -6,7 +6,7 @@ git remote rm origin
 # removes origin
 
 git remote add origin
-# git@github.com:YcleptInsan/GitFoundations
+# ssh: git@github.com:YcleptInsan/GitFoundations
 
 git log --oneline
 # prints a condensed log
@@ -51,7 +51,27 @@ git merge origin/master
 git pull
 # Similar to the command above it pulls down a remote repository to merge with a local repository
 
-git push
+git checkout -b (branch_name)
+# adds branch and moves to it.
+
+git reflog
+# Logs all references pointed at HEAD.
+
+git stash
+# holding area for pending changes. As you might not want to commit the changes that are staged at the moment,
+
+git stash apply
+# applys the stored modified content to content added after the fact.
+
+git stash list
+# shows list of stashed items
+
+git stash pop
+# same as apply, but also removes it from the stash list.
+
+git stash drop
+# drops the last stored change from the stash
+
 
 git branch --set-upstream master origin/master
 # Setting up an upstream tracking branch. reflects the branch remotely that the local branch mirrors. That way git pull will be pulling from the repo. specified
@@ -59,15 +79,39 @@ git branch --set-upstream master origin/master
 git branch -r
 # shows remote branches
 
+git branch branch1 (hash)
+# creates branch and add the specified commit in hash to the branch head.
+
+git branch -m branch1 branch2
+# moves/renames branch to newly specified branch.
 
 git tag (-a)(s)(v)(v1.0)
 # known points where you can tag versions.
 -a_with_Message for message
-s_Signed is for signed. RSA key with
+s_Signed is for signed. RSA key
 v for verified. Verifying a tag is signed or not.
 
 git push --tags
 # pushes tags to remote repository. Allowing version control and easy access to see the state of code at a given point in time.
+
+git mergetool
+# tools for preforming merge
+~ kdif3 ~ look this up for 3 way merging
+~ beyond compare ~
+
+git diff --cashed
+# Compares repository to staging area
+
+git rebase master
+# relocating current branch to master
+
+git rebase continue
+# continues merge after you solve merging conflicts.
+
+git cherry-pick
+# allows you to pick a single commit to branch that you are currently on.
+
+~ Branches are simply labels on the shaw 1 hashes of the commits ~
 
 -------------------------------------------------
               Git Protocols
