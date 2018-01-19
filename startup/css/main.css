@@ -8,7 +8,7 @@
 
 html {
 	font: Spectral, serif;
-	color: #555;
+	color: #007170;
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
 a {
 	text-decoration: none;
 	opacity: 0.75;
-	color: #fff;
+	color: #007170;
 }
 
 a:hover {
