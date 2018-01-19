@@ -17,6 +17,12 @@ git log --oneline | wc -1
 git log --oneline --graph
 # Graphical representation of and Condensed log history
 
+git log --graph --oneline --all --decorate
+# all branches, labels to commits, graph, and oneline commits.
+
+git config --global alias.lga "log --graph --oneline --all --decorate"
+# Sets Alias for short hand phrases that stylize the way you view git information.
+
 git shortlog
 # list of authors and commit messages.
 
@@ -34,7 +40,7 @@ git remote -v
 
 git remote add origin https://github.com/YcleptInsan/(something.git)
 # Can pull from multiple repository.
-  Ability to have multiple remotes. 
+  Ability to have multiple remotes.
 
 git fetch
 # Will pull down changes from the remotely added repositories
@@ -52,6 +58,7 @@ git branch --set-upstream master origin/master
 
 git branch -r
 # shows remote branches
+
 
 git tag (-a)(s)(v)(v1.0)
 # known points where you can tag versions.
