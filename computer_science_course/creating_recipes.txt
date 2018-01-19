@@ -46,3 +46,21 @@ English: can have many meanings -
 	programming languages: have only one meaning but may not be what a programmer intended (BUGS) 
 
 
+Where things go wrong 
+
+	1. Syntactic Errors - common and easily caught : you wrote something illegally 
+	
+	2. Static semantic erros - some languages check for these before running program 
+		can cause unpredictable behavior - you wrote something that is valid but made no sense in the order that you arranged it in
+		* there are languages that will check this before it runs (javascript) but some that check it on the fly (python)
+
+	3. No semantic errors but different meaning than what programmer intended
+		program crashes, stops running
+		program runs forever
+		program gives an answer but different than expected 
+
+
+The Goal 
+- Learn the syntax and semantics of a programming language 
+- Learn how to use those elements to translate "recipes" for solving problem into a form that the computer can use to do work for us 
+- Learn computational modes of thought to enable us to leverage a suite of methods that solve complex problems 
