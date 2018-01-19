@@ -1,0 +1,48 @@
+Creating Recipes 
+
+- a programming language provides us with a set of primitive operations 
+
+- expressions are complex but legal combinations of primitives in a programming language 
+
+- expressions and computations have values and meanings in a programming language 
+
+
+Aspects of Languages 
+
+- primitive constructs 
+	- English Words: 
+		- programming language: numbers, strings, simple operators 
+
+	- float, booleans, integers, strings
+
+
+Syntax 
+	'parsing of a sentence to check whether a sentence is legal or syntactically valid' - 
+		the same happens in computer programming 
+
+		Ex. "cat dog boy" -> not syntactically valid 
+		    "cat hugs boy" -> syntactically valid 
+
+		Ex. Programming Language 
+			"hi"5 => not syntactially valid 
+			3.2*5 => syntactically valid because it consists Num+operator+Num
+
+			Good programming - How to put together syntatically valid sequences
+
+
+Static Semantics -> is which syntatically valid strings have meaning 
+
+English: "I am hungry" => valid but static semantic in error
+
+Programming Language: 3.2*5 - syn valid 
+			3 + "hi" static semantic error because 2 different primitives and they aren't expressions we want to assign meaning to
+
+Semantics is the meaning associated with a syntatically correct string of symbols with no semantic errors 
+
+English: can have many meanings -
+	- Flying planes can be dangerous 
+	- This reading lamp hasn't uttered a word since I bought it
+
+	programming languages: have only one meaning but may not be what a programmer intended (BUGS) 
+
+
