@@ -62,7 +62,7 @@ header {
 }
 
 header h2 {
-	font-family: "Quicksand", sans-serif; 
+	font-family: "Spectral", sans-serif; 
 } 
 
 header nav {
@@ -97,7 +97,7 @@ header nav {
 }
 
 .hero h3 {
-	font: normal 28px "Open Sans", sans-serif;
+	font: normal 28px "Spectral", sans-serif;
 	margin-bottom: 40px;
 }
 
