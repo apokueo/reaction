@@ -1,0 +1,41 @@
+Startup Science - 
+
+What have I learned? 
+	From my research, startups fail because they are not innovative or they are rehashes of 'others' 
+	vision. Hence, why I am employing computer science to supplement the vision that I have. 
+
+
+Topics:
+Thinking Computationally 
+
+- represent Knowlege with 'data structures' 
+- iteration and recursion as computational metaphors 
+- abstraction of procedures and data types 
+- organize and modularize systems using object classes and methods
+- different classes of algorithms, searching and sorting 
+- complexity of algorithms 
+
+
+
+Larry, what does a computer do? 
+
+	Fundamentally
+		- perform calculations
+		- a billion calculations per second!
+		- remembers results (100s of gigabytes of storage) 
+	
+	What kinds of calculations? 
+		- built in to the language 
+		- ones that you define as a programmer 
+
+
+Are there limits? 
+
+	- Despite its speed and size, a computer does have limitations 
+		- Some problems still too complex 
+			(Accurate weather prediction at a local scale) 
+		- Cracking encrpytion schemes
+	
+	- Some problems are fundamentally impossible to compute 
+		- Predicting whether a peice of code will always yeild or halt an answer 
+			
