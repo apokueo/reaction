@@ -1,0 +1,43 @@
+String, Branching and Iteration 
+
+
+
+Bindings
+
+Variables - called Bindings
+
+name {descriptive, meaningful, helps us re-read code easily, cannot be keywords}
+
+value {information stored, can be updated}
+
+
+x = 1 
+y = 2
+y = x
+x = y
+
+
+Strings (expression) 
+
+It is a sequence of characters, letters, special characters, spaces, digits 
+enclosed in single/double quotes 
+
+
+foo = "this isn't right" 
+
+x = 3 
+ans = 0
+
+itersLeft = x 
+while(itersLeft != 0):
+	ans = ans + x
+	itersLeft = itersLeft - 1 
+print(str(x) + '*' + str(x) + ' = ' + str(ans)) 
+
+Type tells the operator what to do with objects 
+
+Strings are non-scalar!!!!!!! Ex. 'Marcus'[0] 
+				you can't do that with 4455[0] 
+
+Operations on Strings 
+
