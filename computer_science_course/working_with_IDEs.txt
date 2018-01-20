@@ -1,0 +1,6 @@
+IDE's 
+
+painful to just type things into a shell
+
+better to have a text editor - integrated development environment 
+
