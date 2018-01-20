@@ -1,0 +1,23 @@
+Used to show stuff to console 
+keyword is print 
+
+prints whatever inside of quotes " " 
+
+user types in something and hits enter
+
+returns entered sequence 
+
+text = input('Type something') 
+
+will be bound to text 
+
+print(5*text) 
+
+text = input('type something')
+
+input takes a 'str' - if you add a number type it will process as a string
+
+for integers do
+
+text = int(input('type something')) 
+
