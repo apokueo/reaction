@@ -111,6 +111,9 @@ git rebase continue
 git cherry-pick
 # allows you to pick a single commit to branch that you are currently on.
 
+git push origin (local repo): (remote branch_name)
+# To delete remote branches push with empty local and specify the remote branch name you wish to delete. 
+
 ~ Branches are simply labels on the shaw 1 hashes of the commits ~
 
 -------------------------------------------------
