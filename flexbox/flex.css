@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+Í
+#p1 {
+  color: purple;
+  font-family: Spectral;
+  justify-content: flex-left;
+  column-width: auto;
+  font-size: 2em;
+}
+
+#p2 {
+  color: Green;
+  font-family: Spectral;
+  justify-content: flex-left;
+}
+
+#p3 {
+  color: Red;
+  font-family: Spectral;
+  justify-content: flex-left;
+  font-size: 3em;
+}
