@@ -27,3 +27,6 @@ fn();  // Larry
 var o = Hello("Lawrence") 
 o.say("Solomon"); 
 o.speak("Public Api"); 
+
+// Closure first showed up in Lisp | read: Clojure
+/* everything you will design in an application is a 'module': Authentication, UI, UX | we do NOT have classes in Javascript, we have this and Objects | prototypes*/ 
