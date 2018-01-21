@@ -9,7 +9,6 @@ Basic Primitives
 - anything computable in one language is computable in any other programming language 
 Python, Fortran, Lisp, C, Matlab, Ruby etc 
 
-
 Nick would always inquire as to why use one language over another. Here is the answer: 
 
 And those are move left, move right, scan, print, write, do nothing." 
