@@ -11,9 +11,10 @@ var person {
 };
 
 console.log(person.details);
-
+console.log(person.age);
 person.greet() ;
 // will trigger the function greet and print Hello in the console.
+
 
 //You can use string as property names which allows for dashes like "first-name": 'Mac',
 
