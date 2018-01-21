@@ -16,4 +16,4 @@ function resp(content) {
 
 ajax( "http://someurl", resp ); 
 
-
+// this is asynchronous programming
