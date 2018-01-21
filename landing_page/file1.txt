@@ -42,7 +42,7 @@ git remote add origin https://github.com/YcleptInsan/(something.git)
 # Can pull from multiple repository.
   Ability to have multiple remotes.
 
-git fetch
+git fetch 
 # Will pull down changes from the remotely added repositories
 
 git merge origin/master
