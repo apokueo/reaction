@@ -1,0 +1,58 @@
+Stores the sha1 as object in a tree that contains pointers to blobs and other trees.
+
+Trees store filename or directory name. Also stores mode(executable file, symbolic link)
+
+Identical content is only stored once. FUCKING BRILLIANT
+
+Git Objects are compressed into a Packfile. Which is stored as deltas or the difference between one file and the next( essentially the relationship between unchanged and changed )
+
+Commit points to a Tree
+
+contains author, date, message, parent commit
+generates a new sha1 and which tree its pointing to.
+
+Commit is a code snapshot from staging area to previous commit.
+
+git cat-file -t (sha1)     t = typeOf
+~blob
+
+git cat-file p  (sha1)     p = contents
+
+References are just pointers to commits
+Tags
+Branches
+HEAD - pointer to the current commit/branch that you are on
+
+changing pointer to locate data
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Working area, Staging area, Repository area
+
+Working area is where untracked files live. Files in the local directory
+
+Staging area is the area where you add the files to commit
+
+
+Repo contains all files and commits in the .git directory
+
+git ls-files -s shows all staged files
+
+git add -p -?
+
+git stash save "WIP: message"
+
+git stash branch <optional branch name>
+
+grab a singe files from stash (use with caution)
+  git checkout <stash name> -- <filename>
+
+removes last stash
+  git stash drop
+
+keep untracked files with stash
+  git stash --incude-untracked
+
+adding content to make this the HEAD
