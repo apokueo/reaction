@@ -11,4 +11,7 @@ node_modules
 *.tmp
 *~
 
+#Temp Directories Ignored
+dist
+public/dist
 
