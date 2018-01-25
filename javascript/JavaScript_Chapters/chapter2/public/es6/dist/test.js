@@ -5,7 +5,7 @@ const sentences = [
 	{ subject: 'Elephants', verb: 'are', object: 'large' },
 ];
 // es6 feature: object destructuring
-function say({ subject, verb, object }] {
+function say({ subject, verb, object }) {
 	//es6 feature: template strings
 	console.log('${subject} ${verb} ${object}');
 }
